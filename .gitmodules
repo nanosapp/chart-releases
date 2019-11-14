@@ -1,0 +1,3 @@
+[submodule "stable/traefik"]
+	path = stable/traefik
+	url = https://github.com/nanosapp/traefik-helm-chart
