@@ -2,10 +2,34 @@ apiVersion: v1
 entries:
   traefik:
   - apiVersion: v1
-    appVersion: 2.0.0
-    created: "2019-11-14T20:22:47.554446+01:00"
+    appVersion: 2.1.0
+    created: "2019-12-02T11:51:46.777971+01:00"
     description: A Traefik based Kubernetes ingress controller
-    digest: 9d4ad70ca4e3ea3db9771c28b087527c1cf023a99e6bc534a9cd5968567499a8
+    digest: 90e74481ddd425d71e1c3acb3fadca515f5fd1f0d043abe09c887fdb26d8ceac
+    engine: gotpl
+    home: https://traefik.io/
+    icon: http://traefik.io/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ludovic@containo.us
+      name: ldez
+    name: traefik
+    sources:
+    - https://github.com/containous/traefik
+    urls:
+    - traefik/traefik-2.1.2.tgz
+    version: 2.1.2
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2019-12-02T11:51:46.77212+01:00"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 84ff239d88a1460bdc185b81f7faf419a27897bcc77de60e07742000602e6db4
     engine: gotpl
     home: https://traefik.io/
     icon: http://traefik.io/traefik.logo.png
@@ -25,4 +49,4 @@ entries:
     urls:
     - traefik/traefik-2.0.0.tgz
     version: 2.0.0
-generated: "2019-11-14T20:22:47.552575+01:00"
+generated: "2019-12-02T11:51:46.769355+01:00"
