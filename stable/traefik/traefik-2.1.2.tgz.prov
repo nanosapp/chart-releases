@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: 2.1.0
+description: A Traefik based Kubernetes ingress controller
+engine: gotpl
+home: https://traefik.io/
+icon: http://traefik.io/traefik.logo.png
+keywords:
+- - traefik
+- - ingress
+maintainers:
+- - email: emile@vauge.com
+  name: emilevauge
+- - email: daniel.tomcej@gmail.com
+  name: dtomcej
+- - email: ludovic@containo.us
+  name: ldez
+name: traefik
+sources:
+- - https://github.com/containous/traefik
+version: 2.1.2
+
+...
+files:
+  traefik-2.1.2.tgz: sha256:90e74481ddd425d71e1c3acb3fadca515f5fd1f0d043abe09c887fdb26d8ceac
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJd5OwOCRAm1VKfnpnClwAAxOcQALIMl9D2phBSxjXJKYkNM7A/
+fDGY2Ve++M8RfCCwd+Ji2bDoyVRaxlfYpScjAlr7le7+zhAt1jTLH+F0+843+mIA
+gYbtQ+k2YG98g62Jx3gJ4jRaX3xoQQa4mY2uLRK6C5zY30+CFhRKdO2JXUwqdRgs
+wRX2cB4hAgJ5DTwgtwGzLdsr9dOI7yDShvw/e39ptvBRE5T+45ocv/LNldB5UVjv
+f3srZWFJJjBPEwMkTLXPj9f7FKBpm/a6sccLj7WH0+h+zZnMjGk2NDQhVjas/Zo6
+AvsKhD9OlDsv6FpJgDq1kAXmw80KMg3NmSawivDCwJEry7dLx1wY0jW8g8Sa/4FH
+WjuwXD5WhE+4OWWhLhcCAs3D1DpunPJFLaefIhZuQ+3PbQKZDwO1YsjiDQta+cGB
+SMUjrLxFThXnnk/g9rbLuDoSNQXpmgQD6jWY+kjR3sIHs4N5t43ywjDCUe08FO8j
+zy3Tl7BiQGgLDWgrvGNoQnTe9kt6yIPBbm24sDQ7g4sXuSlXbHgHjDuEDpDEfcqF
+RuQyv7uvuSjmGCcQa7wlwodkEoXstHde7dE14dpe4mtH3SoFbqZmR3n5aHAxsSNL
+OKYVHEOvncHd/uSeBM8aeclS1tvR0ZsIHCrwgFeoetFqRC2fYydFp4hZ+5XWwYVj
+hFi7B9Ovpbn0hh/iNg03
+=u9aH
+-----END PGP SIGNATURE-----
