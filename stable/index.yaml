@@ -3,7 +3,7 @@ entries:
   docker-registry:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2019-12-03T11:07:00.657951+01:00"
+    created: "2019-12-03T11:13:36.183171+01:00"
     description: A Helm chart for Docker Registry
     digest: 4bbc2d0ef6b1a763210d4d55c2ba64d41f238bb7b790f2d521659323ce64d8ff
     home: https://hub.docker.com/_/registry/
@@ -21,10 +21,30 @@ entries:
     urls:
     - docker-registry/docker-registry-1.8.4.tgz
     version: 1.8.4
+  - apiVersion: v1
+    appVersion: 2.7.1
+    created: "2019-12-03T11:13:36.182479+01:00"
+    description: A Helm chart for Docker Registry
+    digest: 9b83451470a60794eb6f277e2d942ebf74bf20b19e371501e0613634174563b7
+    home: https://hub.docker.com/_/registry/
+    icon: https://hub.docker.com/public/images/logos/mini-logo.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: denys+helm@denv.it
+      name: denysvitali
+    name: docker-registry
+    sources:
+    - https://github.com/docker/distribution-library-image
+    urls:
+    - docker-registry/docker-registry-1.8.4-1.tgz
+    version: 1.8.4-1
   traefik:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: "2019-12-03T11:07:00.66626+01:00"
+    created: "2019-12-03T11:13:36.188429+01:00"
     description: A Traefik based Kubernetes ingress controller
     digest: 90e74481ddd425d71e1c3acb3fadca515f5fd1f0d043abe09c887fdb26d8ceac
     engine: gotpl
@@ -48,7 +68,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2019-12-03T11:07:00.660646+01:00"
+    created: "2019-12-03T11:13:36.185047+01:00"
     description: A Traefik based Kubernetes ingress controller
     digest: 84ff239d88a1460bdc185b81f7faf419a27897bcc77de60e07742000602e6db4
     engine: gotpl
@@ -70,4 +90,4 @@ entries:
     urls:
     - traefik/traefik-2.0.0.tgz
     version: 2.0.0
-generated: "2019-12-03T11:07:00.657039+01:00"
+generated: "2019-12-03T11:13:36.181513+01:00"
