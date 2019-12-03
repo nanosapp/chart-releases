@@ -1,3 +1,6 @@
 [submodule "stable/traefik"]
 	path = stable/traefik
 	url = https://github.com/nanosapp/traefik-helm-chart
+[submodule "stable/docker-registry"]
+	path = stable/docker-registry
+	url = git@github.com:nanosapp/chart-docker-registry.git
