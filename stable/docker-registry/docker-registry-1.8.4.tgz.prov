@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: 2.7.1
+description: A Helm chart for Docker Registry
+home: https://hub.docker.com/_/registry/
+icon: https://hub.docker.com/public/images/logos/mini-logo.svg
+maintainers:
+- - email: jpds@protonmail.com
+  name: jpds
+- - email: pete.brown@powerhrg.com
+  name: rendhalver
+- - email: denys+helm@denv.it
+  name: denysvitali
+name: docker-registry
+sources:
+- - https://github.com/docker/distribution-library-image
+version: 1.8.4
+
+...
+files:
+  docker-registry-1.8.4.tgz: sha256:4bbc2d0ef6b1a763210d4d55c2ba64d41f238bb7b790f2d521659323ce64d8ff
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJd5jO7CRAm1VKfnpnClwAAO3cQAFc8XKKOpl97zq1ZdRypoUBB
+ZpwSEd1JX055/lKDVJA4oDsVFM1ymPxrXPxBZzYsUqf/s6nnhVNFlUOv5ycC0rw7
+eA8YY6kl1PHiQC6Ybi7tYIilMtCc1VnjkiHeoO6e/XhuG/hvK6DEGKsg7Vx+6Kqj
+8jQUf7vpZA0sFPyT2J4x9l/PwVS11/J7M8197Aeu8tXC9i9cDjyI6FzsrUXQILs2
+w1PQTePrNe+GyiTa8q77noE1QZgCb4u/kLcN6XmM97KeI5DvJN4Hx1Srqrkoe6qP
++B6hpagDevM5XaYNohiUst2AQtD9CDotKlMK1F7t6oSMf1Puq4qCETaL1wmygnvG
+nwUA44C3Ek7DwReNzwTGtYUy75vvrDupr7lrdhLoOXJmTPo/hf8cDVwFRvwvCKal
+XEF7FNscA5nPS7VC5UHbIYMxmf/zBycV3nMCFGvFYVrDuHZE3qMuVFgLgcl1Q4Gi
+l9k2SEPDAJODF7uFwgMbtCRBUNLPKYE3MBNeNS/rkT+GTl4HHGDo+bNxAUqERKgS
+EbT+3flylXNjVyerydiiREDEglYMrFaJ7gOd6vc1qL50oeVmcRjP72/yChXX5Ed5
+JU9fO0iYrruZkhhjQc8wHaaN9LjNAb9TkNEuIypEiZNg6KAp9wuFPAhIqGLxPlUj
+VQzZZ3ZFKCXLdlpUc+4Q
+=Kapw
+-----END PGP SIGNATURE-----
